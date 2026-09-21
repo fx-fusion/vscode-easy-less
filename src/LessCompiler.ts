@@ -59,7 +59,7 @@ export async function compile(
   // Option `autoprefixer`.
   options.plugins = [];
   if (options.autoprefixer) {
-    const LessPluginAutoPrefix = require('less-plugin-autoprefix');
+    const LessPluginAutoPrefix = require('@beanbag/less-plugin-autoprefix');
     const browsers: string[] = cleanBrowsersList(options.autoprefixer);
     const autoprefixPlugin = new LessPluginAutoPrefix({ browsers });
 

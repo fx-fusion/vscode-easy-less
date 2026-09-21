@@ -127,8 +127,8 @@
     "theme": "dark"
   },
   "dependencies": {
-    "less": "4.5.1",
-    "less-plugin-autoprefix": "^2.0.0"
+    "@beanbag/less-plugin-autoprefix": "^3.0.0",
+    "less": "^4.9.1"
   },
   "devDependencies": {
     "@types/less": "^3.0.2",
